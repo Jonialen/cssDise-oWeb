@@ -1,0 +1,82 @@
+/* Centra todo el contenido en la pantalla */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+/* Contenedor principal */
+.conteiner {
+  width: 500px;
+  height: 1000px;
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Parte superior */
+.hat {
+  width: 450px;
+  height: 250px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+/* Contenedor de todas las orejas */
+.allEars {
+  display: flex;
+  justify-content: flex-end;
+  gap: 60px;
+}
+
+/* Cada lado de orejas (izquierda y derecha) */
+.ears {
+  align-items: end;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+/* Estilos generales para las orejas */
+.ear {
+  background-color: #e6d4e7;
+  justify-self: center; 
+  border: 2px solid black;
+  align-items: end; 
+}
+
+/* Oreja pequeña */
+.short {
+  width: 20px;
+  height: 70px;
+  border-radius: 50% 50% 40% 40% / 58% 46% 41% 27%;
+}
+
+/* Oreja grande */
+.large {
+  width: 35px;
+  height: 200px;
+  border-radius: 92% 40% 54% 28% / 58% 46% 41% 36% ;
+}
+
+/* Torso */
+.torso {
+  background-color: #e6d4e7;
+  width: 450px;
+  height: 350px;
+  border-radius: 66% 66% 33% 33% / 50% 50% 50% 50%;
+  border: 2px solid black;
+}
+
+/* Pie */
+.foot {
+  width: 450px;
+  height: 150px;
+  background-color: blue;
+}
+
