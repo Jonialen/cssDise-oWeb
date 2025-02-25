@@ -38,7 +38,7 @@ body {
   background-color: #e6d4e7;
   justify-self: center; 
   border: 2px solid black;
-  align-items: end; 
+  transform: rotate(-10deg);
 }
 
 /* Oreja pequeña */
@@ -122,5 +122,5 @@ body {
 }
 
 .right {
-  heigth: 40px; 
+  transform: scaleX(-1);
 }
